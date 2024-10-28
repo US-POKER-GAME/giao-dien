@@ -1,7 +1,7 @@
 #include "User.h"
 #include <iostream> 
 User::User() : enteringName(false), userName("") {
-    if (!font.loadFromFile("Tajawal-Black.ttf")) {
+    if (!font.loadFromFile("Tajawal-Light.ttf")) {
         // Handle error
         std::cerr << "Error loading font\n";
     }
